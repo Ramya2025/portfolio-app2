@@ -1,0 +1,14 @@
+/* BoardUser.css */
+.user-profile-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Increase padding to make it bigger */
+  }
+  
+  .user-profile-card .card-title {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold;
+  }
+  

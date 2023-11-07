@@ -1,0 +1,21 @@
+/* Profile.css */
+.profile-table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .profile-table th,
+  .profile-table td {
+    padding: 10px;
+  }
+  
+  .profile-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  

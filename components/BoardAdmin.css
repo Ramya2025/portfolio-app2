@@ -1,0 +1,83 @@
+/* BoardAdmin.css */
+/* BoardAdmin.css */
+.admin-title {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -50px; /* Add margin to create space between title and cards */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Customize background colors for different cards */
+.view-profile-card {
+    background: linear-gradient(to right, #FF5733, #FF9733) !important;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif; /* Replace 'YourFontName' with your desired font */
+}
+
+.bank-card {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+.user-card {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+.account-card {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+/* Customize button styles for different cards */
+.view-profile-btn {
+    background-color: #FF5733;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+.bank-btn {
+    background-color: #493240;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+.user-btn {
+    background-color: #373b44;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
+
+.account-btn {
+    background-color: #0a504a;
+    color: #fff;
+    font-family: 'YourFontName', sans-serif;
+}
